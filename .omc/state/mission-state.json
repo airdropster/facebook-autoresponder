@@ -1,0 +1,89 @@
+{
+  "updatedAt": "2026-04-02T21:49:44.983Z",
+  "missions": [
+    {
+      "id": "session:80c0fc85-16cb-4314-ab57-ef88d0613db6:none",
+      "source": "session",
+      "name": "none",
+      "objective": "Session mission",
+      "createdAt": "2026-04-02T21:21:46.067Z",
+      "updatedAt": "2026-04-02T21:49:44.983Z",
+      "status": "done",
+      "workerCount": 3,
+      "taskCounts": {
+        "total": 3,
+        "pending": 0,
+        "blocked": 0,
+        "inProgress": 0,
+        "completed": 3,
+        "failed": 0
+      },
+      "agents": [
+        {
+          "name": "Explore:af1c40b",
+          "role": "Explore",
+          "ownership": "af1c40b7a6095230e",
+          "status": "done",
+          "currentStep": null,
+          "latestUpdate": "completed",
+          "completedSummary": null,
+          "updatedAt": "2026-04-02T21:22:09.668Z"
+        },
+        {
+          "name": "critic:a2bfa76",
+          "role": "critic",
+          "ownership": "a2bfa76bfe6c7a4b5",
+          "status": "done",
+          "currentStep": null,
+          "latestUpdate": "completed",
+          "completedSummary": null,
+          "updatedAt": "2026-04-02T21:33:46.778Z"
+        },
+        {
+          "name": "UI Designer:a49c23e",
+          "role": "UI Designer",
+          "ownership": "a49c23ecac9944ecf",
+          "status": "done",
+          "currentStep": null,
+          "latestUpdate": "completed",
+          "completedSummary": null,
+          "updatedAt": "2026-04-02T21:49:44.983Z"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "session-start:a2bfa76bfe6c7a4b5:2026-04-02T21:33:09.219Z",
+          "at": "2026-04-02T21:33:09.219Z",
+          "kind": "update",
+          "agent": "critic:a2bfa76",
+          "detail": "started critic:a2bfa76",
+          "sourceKey": "session-start:a2bfa76bfe6c7a4b5"
+        },
+        {
+          "id": "session-stop:a2bfa76bfe6c7a4b5:2026-04-02T21:33:46.778Z",
+          "at": "2026-04-02T21:33:46.778Z",
+          "kind": "completion",
+          "agent": "critic:a2bfa76",
+          "detail": "completed",
+          "sourceKey": "session-stop:a2bfa76bfe6c7a4b5"
+        },
+        {
+          "id": "session-start:a49c23ecac9944ecf:2026-04-02T21:45:23.486Z",
+          "at": "2026-04-02T21:45:23.486Z",
+          "kind": "update",
+          "agent": "UI Designer:a49c23e",
+          "detail": "started UI Designer:a49c23e",
+          "sourceKey": "session-start:a49c23ecac9944ecf"
+        },
+        {
+          "id": "session-stop:a49c23ecac9944ecf:2026-04-02T21:49:44.983Z",
+          "at": "2026-04-02T21:49:44.983Z",
+          "kind": "completion",
+          "agent": "UI Designer:a49c23e",
+          "detail": "completed",
+          "sourceKey": "session-stop:a49c23ecac9944ecf"
+        }
+      ]
+    }
+  ]
+}
