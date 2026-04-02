@@ -11,6 +11,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy source code
 COPY *.py .
+COPY static/ ./static/
 
 # Create data and logs directories with correct ownership
 RUN mkdir -p /app/data /app/logs && chown -R appuser:appuser /app
