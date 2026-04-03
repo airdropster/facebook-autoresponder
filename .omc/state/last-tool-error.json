@@ -1,7 +1,7 @@
 {
-  "tool_name": "Read",
-  "tool_input_preview": "{\"file_path\":\"C:\\\\tmp\\\\aifunflix-home\\\\index.html\"}",
-  "error": "File does not exist. Note: your current working directory is C:\\Users\\franz\\Documents\\FrancoisALL\\AI\\Projets\\facebook.",
-  "timestamp": "2026-04-02T22:03:38.925Z",
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"# Try accessing via IP directly with different paths to see if container is even reachable\\ncurl -sf \\\"https://aifunflix.cloud/facebook/\\\" -o /dev/null -w \\\"facebook/: %{http_code}\\\\n\\\"\\nc...",
+  "error": "Exit code 22\nfacebook/: 502\r\nhome/: 401",
+  "timestamp": "2026-04-03T08:27:30.452Z",
   "retry_count": 1
 }

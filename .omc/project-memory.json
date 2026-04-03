@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1775203396661,
+  "projectRoot": "c:\\Users\\franz\\Documents\\FrancoisALL\\AI\\Projets\\facebook",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "requirements.txt"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pip",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "static"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "static": {
+      "path": "static",
+      "purpose": "Static files",
+      "fileCount": 1,
+      "lastAccessed": 1775203396647,
+      "keyFiles": [
+        "index.html"
+      ]
+    },
+    "__pycache__": {
+      "path": "__pycache__",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1775203396647,
+      "keyFiles": [
+        "ai_engine.cpython-313.pyc",
+        "database.cpython-313.pyc",
+        "facebook_client.cpython-313.pyc",
+        "main.cpython-313.pyc"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "Dockerfile",
+      "accessCount": 2,
+      "lastAccessed": 1775204886681,
+      "type": "file"
+    },
+    {
+      "path": "main.py",
+      "accessCount": 1,
+      "lastAccessed": 1775204722324,
+      "type": "file"
+    },
+    {
+      "path": "requirements.txt",
+      "accessCount": 1,
+      "lastAccessed": 1775204722777,
+      "type": "file"
+    },
+    {
+      "path": "database.py",
+      "accessCount": 1,
+      "lastAccessed": 1775204761235,
+      "type": "file"
+    },
+    {
+      "path": "docker-compose.yml",
+      "accessCount": 1,
+      "lastAccessed": 1775205022124,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
